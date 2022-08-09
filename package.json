@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "daisyui": "^2.22.0",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  },
+  "name": "myLyricsAPI",
+  "version": "0.1.0",
+  "description": "An API for adding and fetching your favorite lyrics at random or by searching",
+  "main": "index.py",
+  "repository": "https://github.com/theSaviKing/myLyricsAPI.git",
+  "author": "T. Paul Kariuki <tpaulkariuki@gmail.com>",
+  "license": "MIT"
+}

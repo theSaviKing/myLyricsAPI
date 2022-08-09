@@ -1,5 +1,5 @@
 from random import choice
-from flask import Flask
+from flask import Flask, render_template
 import json
 
 app = Flask(__name__)
@@ -12,4 +12,4 @@ def random():
 
 @app.route('/add')
 def add():
-    return "Add lyrics here"
+    return render_template('add.html')
