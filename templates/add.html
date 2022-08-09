@@ -5,11 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Lyrics | MyLyricsAPI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='tailwind.css') }}">
 </head>
-<body class="flex flex-col text-center justify-center items-center gap-6">
+<body class="flex flex-col text-center justify-center items-center gap-6 min-h-screen">
     <header>
-        <h1 class="text-6xl uppercase font-thin">Add Lyrics</h1>
-        <p class="font-mono">MyLyricsAPI</p>
+        <h1 class="text-7xl uppercase font-extralight">Add Lyrics</h1>
+        <p class="font-mono font-bold text-xl">MyLyricsAPI</p>
     </header>
+    <form action="submit" method="post" class="form-control w-1/2">
+        <label for="songname" class="label uppercase">
+            Song name
+        </label>
+        <input type="text" id="songname" name="songname" class="input input-primary font-bold" required>
+
+        <label for="artist" class="label uppercase">
+            Artist
+        </label>
+        <input type="text" id="artist" name="artist" class="input input-secondary" required>
+
+        <label for="album" class="label uppercase">
+            Album
+        </label>
+        <input type="text" id="album" name="album" class="input input-secondary" required>
+
+        <label for="features" class="label uppercase">
+            features
+        </label>
+        <input type="text" id="features" name="features" class="input input-secondary" required>
+
+        <label for="lyrics" class="label uppercase">
+            lyrics
+        </label>
+        <textarea name="lyrics" id="lyrics" class="textarea textarea-bordered" placeholder="Lorem ipsum dolor sit..."></textarea>
+
+        <button type="submit" class="btn my-4">Submit</button>
+    </form>
 </body>
 </html>

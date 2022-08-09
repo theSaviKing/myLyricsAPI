@@ -11,5 +11,9 @@
   "main": "index.py",
   "repository": "https://github.com/theSaviKing/myLyricsAPI.git",
   "author": "T. Paul Kariuki <tpaulkariuki@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build:css": "yarn tailwindcss -i ./static/input.css -o ./static/tailwind.css",
+    "build:watch": "yarn build:css -w"
+  }
 }
