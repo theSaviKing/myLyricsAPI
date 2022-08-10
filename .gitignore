@@ -1,2 +1,4 @@
 .vercel
 __pycache__
+.replit
+replit.nix

@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "repl_nix_myLyricsAPI-1"
+version = "0.1.0"
+description = ""
+authors = ["Replit user <<>>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+docutils = "^0.19"
+keyring = "^23.8.2"
+cryptography = "^37.0.4"
+Sphinx = "^5.1.1"
+blinker = "^1.5"
+Cython = "^0.29.32"
+HTMLParser = "^0.0.2"
+watchdog = "^2.1.9"
+lockfile = "^0.12.2"
+ipywidgets = "^7.7.1"
+toml = "^0.10.2"
+attr = "^0.3.2"
+python-ntlm = "^1.1.0"
+railroad = "^0.5.0"
+lxml = "^4.9.1"
+asgiref = "^3.5.2"
+tornado = "^6.2"
+ipython = "^8.4.0"
+numpy = "^1.23.1"
+waitress = "^2.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

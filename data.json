@@ -1,16 +1,1 @@
-[
-    {
-        "name": "Promises",
-        "artist": "Maverick City Music",
-        "features": "Joe L. Barnes & Naomi Raine",
-        "album": "Maverick City Music, Vol.3: Pt. 1",
-        "lyrics": "Great is your faithfulness to me\nGreat is your faithfulness to me\nFrom the rising sun to the setting same\nI will praise your name\nGreat is your faithfulness to me"
-    },
-    {
-        "name": "Jireh",
-        "artist": "Elevation Worship & Maverick City Music",
-        "features": "Chandler Moore & Naomi Raine",
-        "album": "Old Church Basement",
-        "lyrics": "Jireh, you are enough\nJireh, your are enough\nI will be content\n(Even in this and) In every circumstance\n(You are) Jireh, you are enough\nForever enough, always enough, more than enough\nForever enough, always enough, more than enough"
-    }
-]
+[{"name": "Promises", "artist": "Maverick City Music", "features": "Joe L. Barnes & Naomi Raine", "album": "Maverick City Music, Vol.3: Pt. 1", "lyrics": "Great is your faithfulness to me\nGreat is your faithfulness to me\nFrom the rising sun to the setting same\nI will praise your name\nGreat is your faithfulness to me"}, {"name": "Jireh", "artist": "Elevation Worship & Maverick City Music", "features": "Chandler Moore & Naomi Raine", "album": "Old Church Basement", "lyrics": "Jireh, you are enough\nJireh, your are enough\nI will be content\n(Even in this and) In every circumstance\n(You are) Jireh, you are enough\nForever enough, always enough, more than enough\nForever enough, always enough, more than enough"}, {"album": "Old Church Basement", "artist": "Elevation Worship & Maverick City Music", "features": "Joe L. Barnes", "name": "Million Little Miracles", "lyrics": "I've got miracles on miracles\r\nA million little miracles\r\nMiracles on miracles\r\nCount your miracles\r\nOne, two, three, four, I can't even count 'em all"}, {"album": "Move Your Heart", "artist": "Maverick City Music & UPPERROOM", "features": "Dante Bowe, Maryanne J. George & Aaron Moses", "name": "I Thank God", "lyrics": "He healed my heart\r\nHe changed my name\r\nForever free, I'm not the same\r\nI thank the Master\r\nI thank the Savior\r\nI thank God"}, {"album": "Move Your Heart", "artist": "Maverick City Music & UPPERROOM", "features": "Brandon Lake & Eniola Abioye", "name": "Rest on Us", "lyrics": "Come down\r\nSpirit, when You move You make my heart pound\r\nWhen You fill the room\r\nYou're here and I know You are moving\r\nI'm here and I know You will fill me"}, {"album": "Maverick City, Vol. 2", "artist": "Maverick City Music", "features": "Chandler Moore & Steffany Gretzinger", "name": "Refiner", "lyrics": "I wanna be tried by fire\r\nPurified\r\nYou take whatever you desire\r\nLord here's my life"}, {"album": "Old Church Basement", "artist": "Elevation Worship & Maverick City Music", "features": "Chandler Moore & Dante Bower", "name": "Wait On You", "lyrics": "Wait on the Lord\r\nWait on the Lord\r\nHe will renew your strength\r\nSo wait, I say"}, {"album": "Kingdom Book One", "artist": "Maverick City Music & Kirk Franklin", "features": "Brandon Lake & Chandler Moore", "name": "Fear is Not My Future", "lyrics": "Fear is not my future\r\nYou are\r\nSickness is not my story\r\nYou are, You are\r\nHeartbreak's not my home\r\nYou are\r\nYou are\r\nDeath is not the end\r\nYou are\r\nYou are"}]

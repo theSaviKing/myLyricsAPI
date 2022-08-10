@@ -1,7 +1,11 @@
 from random import choices, choice
-from urllib import request
 from flask import Flask, render_template, redirect, url_for, request
+from waitress import serve
 import json
+import logging
+
+logger = logging.getLogger('waitress')
+logger.setLevel(logging.INFO)
 
 app = Flask(__name__)
 
@@ -32,9 +36,10 @@ def submit():
             "name": request.form['songname'],
             "lyrics": request.form['lyrics']
         })
-        json.dump(lyric, open('data.json', mode="w"))
+        json.dump(lyric, open('data.json', mode="w"), indent=4)
         return json.load(open('data.json'))
-        
-
     else:
         return redirect(url_for('add'))
+
+if __name__ == "__main__":
+    serve(app, host='0.0.0.0', port=8080)
